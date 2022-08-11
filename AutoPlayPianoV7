@@ -1,0 +1,257 @@
+local KeyScreen = Instance.new("ScreenGui")
+
+local KeyFrame = Instance.new("Frame")
+
+local DiscordButton = Instance.new("TextButton")
+
+local KeyBox = Instance.new("TextBox")
+
+local Discord = Instance.new("TextLabel")
+
+local Note = Instance.new("TextLabel")
+
+local TOPFRAME = Instance.new("Frame")
+
+local GrubHubIsTheBest = Instance.new("TextLabel")
+
+local Submit = Instance.new("TextButton")
+
+
+KeyScreen.Name = "KeyScreen"
+
+KeyScreen.Parent = game.CoreGui
+
+KeyScreen.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+
+KeyFrame.Name = "KeyFrame"
+
+KeyFrame.Parent = KeyScreen
+
+KeyFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+
+KeyFrame.Position = UDim2.new(0.361004144, 0, 0.435349941, 0)
+
+KeyFrame.Size = UDim2.new(0, 417, 0, 178)
+
+KeyFrame.Draggable = true
+
+KeyFrame.Active = true
+
+KeyFrame.Selectable = true
+
+
+DiscordButton.Name = "DiscordButton"
+
+DiscordButton.Parent = KeyFrame
+
+DiscordButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+DiscordButton.Position = UDim2.new(0.544364512, 0, 0.720505595, 0)
+
+DiscordButton.Size = UDim2.new(0, 163, 0, 40)
+
+DiscordButton.Font = Enum.Font.SourceSans
+
+DiscordButton.Text = "Get Key"
+
+DiscordButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+DiscordButton.TextSize = 23.000
+
+DiscordButton.MouseButton1Down:connect(function()
+
+setclipboard("https://linkvertise.com/481442/jxcexploitss-autoplay-gui/1") --Your discord / way of getting the key her
+
+wait(1.2)
+local NotificationHolder = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Module.Lua"))()
+local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Client.Lua"))()
+Notification:Notify(
+    {Title = "Notification", Description = "The Key System Has Been Copied, Paste it on Google or Chrome!"},
+    {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 10, Type = "option"},
+    {Image = "http://www.roblox.com/asset/?id=6023426923", ImageColor = Color3.fromRGB(255, 84, 84), Callback = function(State) print(tostring(State)) end}
+)
+wait(1)
+Notification:Notify(
+    {Title = "Discord Server Has Been Copied", Description = "Tired of doing Key System? Join on my Discord Server and Buy Permanent Key for only 1$!"},
+    {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 10, Type = "image"},
+    {Image = "http://www.roblox.com/asset/?id=6023426923", ImageColor = Color3.fromRGB(255, 84, 84)}
+)
+
+end)
+
+
+KeyBox.Name = "KeyBox"
+
+KeyBox.Parent = KeyFrame
+
+KeyBox.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+
+KeyBox.Position = UDim2.new(0.0215827338, 0, 0.224719092, 0)
+
+KeyBox.Size = UDim2.new(0, 399, 0, 41)
+
+KeyBox.Font = Enum.Font.SourceSans
+
+KeyBox.PlaceholderText = "Input"
+
+KeyBox.Text = ""
+
+KeyBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+KeyBox.TextSize = 20.000
+
+
+Discord.Name = "Discord"
+
+Discord.Parent = KeyFrame
+
+Discord.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+Discord.BackgroundTransparency = 1.000
+
+Discord.Position = UDim2.new(0, 0, 0.527228594, 0)
+
+Discord.Size = UDim2.new(0, 417, 0, 26)
+
+Discord.Font = Enum.Font.SourceSans
+
+Discord.Text = "You Can Get a Key by Clicking [ Get Key ] Below..."
+
+Discord.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+Discord.TextSize = 20.000
+
+
+
+
+Note.Name = "Note"
+
+Note.Parent = KeyFrame
+
+Note.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+Note.BackgroundTransparency = 1.000
+
+Note.Position = UDim2.new(0, 0, 0.0437238775, 0)
+
+Note.Size = UDim2.new(0, 417, 0, 26)
+
+Note.Font = Enum.Font.SourceSans
+
+Note.Text = "Enter Your Key Here:"
+
+Note.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+Note.TextSize = 20.000
+
+
+TOPFRAME.Name = "TOPFRAME"
+
+TOPFRAME.Parent = KeyFrame
+
+TOPFRAME.BackgroundColor3 = Color3.fromRGB(97, 106, 103)
+
+TOPFRAME.Position = UDim2.new(-0.023980815, 0, -0.277777791, 0)
+
+TOPFRAME.Size = UDim2.new(0, 438, 0, 51)
+
+
+
+
+GrubHubIsTheBest.Name = "JxcExploitss Key System"
+
+GrubHubIsTheBest.Parent = TOPFRAME
+
+GrubHubIsTheBest.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+GrubHubIsTheBest.BackgroundTransparency = 1.000
+
+GrubHubIsTheBest.Position = UDim2.new(0, 0, 0.0196078438, 0)
+
+GrubHubIsTheBest.Size = UDim2.new(0, 438, 0, 50)
+
+GrubHubIsTheBest.Font = Enum.Font.SourceSans
+
+GrubHubIsTheBest.Text = "JxcExploitss Key System"
+
+GrubHubIsTheBest.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+GrubHubIsTheBest.TextSize = 25.000
+
+
+Submit.Name = "Submit"
+
+Submit.Parent = KeyFrame
+
+Submit.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+Submit.Position = UDim2.new(0.0647482127, 0, 0.720505595, 0)
+
+Submit.Size = UDim2.new(0, 163, 0, 40)
+
+Submit.Font = Enum.Font.SourceSans
+
+Submit.Text = "Submit Key"
+
+Submit.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+Submit.TextSize = 23.000
+
+Submit.MouseButton1Down:connect(function()
+
+
+local Keytext = KeyBox.Text
+
+local lp = game.Players.LocalPlayer
+
+
+KeyScreen:Destroy()
+
+wait(0.5)
+
+game.StarterGui:SetCore("SendNotification", {
+
+Title = "Auto Piano Hub V6";
+
+Text = "Validating Key...";
+
+Icon = "rbxassetid://113299590";
+
+Duration = 3;
+
+})
+
+if Keytext == 'JxcExploitsSHWYHDGAWFTSDFRWGYASGDGWAFGSDGFWFG' then
+
+
+
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/JxcExploit/LOL/main/Auto%20Play%20V7'))()
+
+
+
+game.StarterGui:SetCore("SendNotification", {
+
+Title = "Auto Piano Hub V6";
+
+Text = "Correct Key";
+
+Icon = "rbxassetid://113299590";
+
+Duration = 1;
+
+})
+
+
+wait(0.1)
+
+KeyScreen:Destroy()
+
+else
+
+game.Players.LocalPlayer:Kick("Wrong Key or Expired Key, The Key System Has Been Copied, Paste it on Google or Chrome to get the Key.")
+setclipboard("https://linkvertise.com/481442/jxcexploitss-autoplay-gui/1")
+
+end
+end)
